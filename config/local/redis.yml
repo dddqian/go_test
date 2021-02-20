@@ -1,0 +1,8 @@
+s1:
+  host: 192.168.0.2
+  port: 6379
+  select: 2
+s2:
+  host: 192.168.0.2
+  port: 6379
+  select: 3

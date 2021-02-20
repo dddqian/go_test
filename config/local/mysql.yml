@@ -1,0 +1,6 @@
+default:
+  master:
+    source: root:root@tcp(127.0.0.1:3306)/xdpool?charset=utf8&parseTime=True&loc=Local&timeout=1000ms
+  slave:
+    source: root:root@tcp(127.0.0.1:3306)/xdpool?charset=utf8&parseTime=True&loc=Local&timeout=1000ms
+
